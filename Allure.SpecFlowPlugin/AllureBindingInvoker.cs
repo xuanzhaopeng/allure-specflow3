@@ -17,8 +17,8 @@ namespace Allure.SpecFlowPlugin
     {
         static AllureLifecycle allure = AllureLifecycle.Instance;
 
-        public AllureBindingInvoker(SpecFlowConfiguration specFlowConfiguration, IErrorProvider errorProvider) : base(
-            specFlowConfiguration, errorProvider)
+        public AllureBindingInvoker(SpecFlowConfiguration specFlowConfiguration, IErrorProvider errorProvider, ISynchronousBindingDelegateInvoker synchronousBindingDelegateInvoker) : base(
+            specFlowConfiguration, errorProvider, synchronousBindingDelegateInvoker)
         {
         }
 

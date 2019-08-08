@@ -2,31 +2,30 @@
 
   <PropertyGroup>
     <TargetFramework>net45</TargetFramework>
-    <PackageId>SpecFlow.Allure</PackageId>
-    <Version>2.4.2.4</Version>
-    <Authors>Alexander Bakanov</Authors>
+    <PackageId>SpecFlow3.Allure</PackageId>
+    <Version>3.0.225</Version>
+    <Authors>Alexander Bakanov, Zhaopeng XUAN</Authors>
     <Company />
     <Product />
-    <Description>Generates Allure report result files for SpecFlow test run</Description>
+    <Description>Generates Allure report result files for SpecFlow3 test run</Description>
     <PackageProjectUrl>https://github.com/allure-framework/allure-csharp/wiki/SpecFlow-Adapter</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/allure-framework/allure-csharp/master/img/allure-specflow.png</PackageIconUrl>
-    <RepositoryUrl>https://github.com/allure-framework/allure-csharp</RepositoryUrl>
-    <PackageTags>specflow allure</PackageTags>
+    <RepositoryUrl>https://github.com/xuanzhaopeng/allure-specflow3</RepositoryUrl>
+    <PackageTags>specflow3 allure</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <AssemblyVersion>2.4.2.4</AssemblyVersion>
-    <FileVersion>2.4.2.4</FileVersion>
+    <AssemblyVersion>3.0.225</AssemblyVersion>
+    <FileVersion>3.0.225</FileVersion>
   </PropertyGroup>
 
 
   <ItemGroup>
     <Content Include="allureConfig.Template.json" Pack="true" />
-    <Content Include="App.config.transform" Pack="true" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="7.1.1" />
-    <PackageReference Include="SpecFlow" Version="2.4.*" />
+    <PackageReference Include="SpecFlow" Version="3.0.225" />
   </ItemGroup>
 
   <ItemGroup>
