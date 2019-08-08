@@ -6,7 +6,7 @@ Big thanks for original Authors, please notice all COPYRIGHT & AUTHOR of origin 
 
 This repo is only for Allure in Specflow 3.
 
-## Allure.Commons  [![](http://img.shields.io/nuget/vpre/Allure.Commons.svg?style=flat)](https://www.nuget.org/packages/Allure.Commons)
+## Allure.Commons  [![](http://img.shields.io/nuget/vpre/SpecFlow3.Allure.svg?style=flat)](https://www.nuget.org/packages/SpecFlow3.Allure/)
 .Net implementation of [Allure java-commons](https://github.com/allure-framework/allure-java/tree/master/allure-java-commons).
 
 Can be targeted either by .net 4.6.* or .net standard 2.* projects.
