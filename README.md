@@ -1,4 +1,10 @@
-# Allure c# Integrations   ![](https://bakanych.visualstudio.com/_apis/public/build/definitions/60930d4b-6231-4f3e-a77f-40e16c32a13d/3/badge)
+# Allure for Specflow3  
+
+## Get start
+Please visit origin wetsite of Allure for Specflow 2.X https://github.com/allure-framework/allure-csharp
+Big thanks for original Authors, please notice all COPYRIGHT & AUTHOR of origin repo are keeped in this repository.
+
+This repo is only for Allure in Specflow 3.
 
 ## Allure.Commons  [![](http://img.shields.io/nuget/vpre/Allure.Commons.svg?style=flat)](https://www.nuget.org/packages/Allure.Commons)
 .Net implementation of [Allure java-commons](https://github.com/allure-framework/allure-java/tree/master/allure-java-commons).
